@@ -1,19 +1,27 @@
-label{
+label {
+
 display: inline-block;
-width:170px;
-font-feature-settings: Verdana, Geneva, Tahoma, sans-serif;
+width: 170px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 12pt;
 margin: 5px;
 padding-left: 5px;
-color:#09a;
+color: #09a;
+
 
 }
+
 div#options{
-margin: 10px;
-}
-tr:nth-child(even){
-        background-color: #c0c0c0;
+
+    margin: 10px;
 }
 
+
+
+tr:nth-child(){
+
+    background-color: #c0c0c0;
+ 
+}
 
 

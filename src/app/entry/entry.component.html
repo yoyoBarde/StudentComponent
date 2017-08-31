@@ -1,9 +1,45 @@
-<div>
-  <label>Student Number</label> <input type="text" [(ngModel)]="studNo"><br>
+<p>
+
+
+
+  <label >Student Number</label> <input type="text" [(ngModel)]="studNo"><br>
   <label>Student First Name</label> <input type="text" [(ngModel)]="studFname"><br>
   <label>Student Last Name</label> <input type="text" [(ngModel)]="studLname"><br>
   <label>Student Program</label> <input type="text" [(ngModel)]="studProg"><br>
-  <label>Student Year</label> <input type="text" [(ngModel)]="studYear"><br>
-</div>
-<selection>
-  </br>
+  <label>Student Year</label> <input type="text" [(ngModel)]="studYr"><br>
+
+
+
+
+  <button id= "addStudents" (click)="addStudentEntry()">
+    Add Student Entry
+  </button>
+  <button id= "listStudents" (click)="listStudents()">
+    List Students
+  </button>
+
+
+
+{{messages}}
+
+
+
+
+
+          <th> Student Number  </th>
+          <th> First Name </th>
+          <th> Last Name </th>
+          <th> Program Enrolled </th>
+          <th> Year </th>
+
+
+    
+          <td>{{studentRecord.studNumber}}</td>
+          <td>{{studentRecord.studFirstName}}</td>
+          <td>{{studentRecord.studLastName}}</td>
+          <td>{{studentRecord.studProgram}}</td>
+          <td>{{studentRecord.studYear}}</td>
+      
+
+
+</p>
